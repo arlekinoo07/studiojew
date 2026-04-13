@@ -1,0 +1,13 @@
+{
+  "name": "studiojew-root",
+  "private": true,
+  "workspaces": [
+    "klyuch/my-auth-app"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace my-auth-app",
+    "dev": "npm run dev --workspace my-auth-app",
+    "lint": "npm run lint --workspace my-auth-app",
+    "start": "npm run start --workspace my-auth-app"
+  }
+}
